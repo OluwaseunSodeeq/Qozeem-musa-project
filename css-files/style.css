@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+#E3B32D
+#FBFBFB
+#707070
+
+
+body {
+    
+    font-family: "Quicksand" sanserif;
+    
+    
+}
+.whole-project {
+    width: 100%;
+
+}
+h2 {
+    font-size: 2em;
+}
+span {
+    color: #E3B32D ;
+}
+/* masterclass */
+header,
+.navigation ul,
+.first-section,
+.second-section-headings,
+.second-section-body,
+.third-section,
+.FFF,
+.fifth-section,
+.last,
+.last ul {
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.first-section,
+.second-section-body,
+.third-section,
+.fourth-section,
+.fifth-section,
+.last {
+margin-left:10% ;
+margin-right: 10%;
+
+}
+/* the whole project */
+.whole-project {
+    display: flex;
+    flex-direction: column;
+}
+
+  /* navigation and header section */
+.header {
+    align-items: center;
+}
+.logo {
+    margin-left: 10%;
+}
+.navigation {
+    margin-right: 10%;
+}
+
+.navigation ul  {
+    width: auto;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    
+
+}
+.navigation ul a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration:none;
+    color: #000;
+}
+#ade-one {
+    color: #E3B32D;
+}
+#ade-two {
+    background-color: #E3B32D;
+    color: #FBFBFB ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* first-section stylings */
+.first-section {
+   align-items: center;
+}
+
+.left-side button {
+    background-color: #E3B32D;
+    color: #FBFBFB;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.left-side p {
+    color:#707070 ;
+}
+.left-side {
+    margin-top: -100px;
+}
+
+.right-side img {
+    height: 400px;
+    width: 400px;
+}
+
+/* second-section */
+.second-section-headings {
+    margin-bottom: 50px;
+    align-items: center;
+    color: #707070;
+    
+}
+.second-section h4 {
+    font-size: 20px;
+    margin-left: 10%;
+}
+.second-section-headings p{
+    margin-right: 10%;
+
+}
+.one {
+    height: 330px;
+    text-align: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.one:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) translateY(-2px);
+    
+
+}
+.one >.CCC p{
+    color: #707070;
+}
+.second-section-body {
+    gap: 20px;
+    align-items: center;
+    white-space: nowrap;
+    overflow-y: hidden; 
+    overflow-x: auto; 
+}
+.second-section-body:hover{
+    /* white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto; */
+
+}
+.one > .AAA img {
+    height:200px ;
+    width: 200px;
+}
+/* third-section */
+.third-section {
+    align-items: center;
+}
+.DDD img {
+    height: 400px;
+    width: 400px;
+}
+.EEE p{
+    color: #707070;
+}
+ .EEE >.third-btn {
+    background-color: #E3B32D;
+    color: #FBFBFB;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* fourth-section */
+.fourth-section h2 {
+    text-align: center;
+     
+}
+.FFF {
+   align-items: center;
+
+
+}
+.card >.icon {
+    font-size: 70px;
+}
+#icon-bg {
+    background-color: #E3B32D;
+    color: #FBFBFB;
+    padding:5px;
+    border-radius: 5px;
+
+
+}
+.icon {
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.card:hover {
+    border-top: 5px solid #E3B32D;
+    border-bottom: 5px solid #E3B32D;
+    border-radius: 10px;
+
+}
+.card p {
+    color: #707070;
+}
+
+/* fifth section */
+
+.fifth-section {
+   align-items: center;
+}
+
+.fifth-image img{
+    width: 400px;
+    height: 400px;
+}
+
+/* last section */
+.last {
+    width: auto;
+    height: auto;
+}
+ .last >.social-media ul {
+    align-items: center;
+    list-style-type: none;
+
+}
+.last a {
+    color: #707070;
+    text-decoration: none; 
+}
+.last ul {
+    list-style-type: none;
+}
+.about {
+    text-align: center;
+}
+.about ul {
+    flex-direction: column;
+    gap: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.HHH {
+    background-color: #FBFBFB;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 2rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.HHH button {
+    margin-left: -5px;
+    background-color: #E3B32D;
+    color: #FBFBFB;
+    padding: 7px;
+    border: none;
+}
+.HHH input {
+    padding: 5px;
+}
+
+.phone,
+.location {
+    display: flex;
+    gap: 20px;
+   
+}
+.location {
+    margin-top: 20px;
+}
+
+.JJJ {
+    text-align: center;
+}
+   /* Good job! */
+

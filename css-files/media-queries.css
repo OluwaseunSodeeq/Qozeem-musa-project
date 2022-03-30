@@ -1,0 +1,54 @@
+@media (max-width: 615px) {
+    .header,
+    .first-section,
+    .third-section,
+    .FFF,
+    .fifth-section,
+    .last,
+    .last >.social-media ul {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .whole-project {
+        height: 100%;
+        width: auto;
+    }
+    .header {
+        height: 100%;
+    } 
+    .header >.navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-section {
+        margin-top: 100px;
+    }
+    .last .social-media ul {
+        flex-direction: row;
+    }
+    .last >.about ul {
+        flex-direction: row;
+    } 
+    .last >.our-services {
+        margin-top: 50px;
+    }
+    .whole-project >.third-section {
+       height: 100%;
+    }
+    .third-section >.EEE {
+        order: 1;
+    }
+    .third-section >.DDD {
+        order: 2;
+        
+    }
+
+    /* design by Mr qozeem musa */
+    
+
+
+    
+
+}
+
